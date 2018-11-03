@@ -69,6 +69,7 @@ If you find ACT-detector useful in your research, please cite:
   ```Shell
   # Modify Makefile.config according to your Caffe installation.
   cp Makefile.config.example Makefile.config
+  # I had to to: sudo apt-get install libopenblas-base and sudo apt-get install libopenblas-dev
   make -j8
   # Make sure to include $CAFFE_ROOT/python to your PYTHONPATH.
   make py
